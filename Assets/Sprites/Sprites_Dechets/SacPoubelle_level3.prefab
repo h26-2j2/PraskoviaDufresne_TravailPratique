@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8241810396247002067
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9967416
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.080660865
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 656884170722152516, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -9.253
+      objectReference: {fileID: 0}
+    - target: {fileID: 3707411848463524705, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587325791321756525, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8522368038419043759, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      propertyPath: m_Name
+      value: SacPoubelle_level3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5587325791321756525, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8522368038419043759, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7147623447653945316}
+    - targetCorrespondingSourceObject: {fileID: 8522368038419043759, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6130769021901834259}
+    - targetCorrespondingSourceObject: {fileID: 8522368038419043759, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -208462696416259658}
+  m_SourcePrefab: {fileID: 100100000, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+--- !u!1 &298718002204941948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8522368038419043759, guid: 9fcc7265acc91ac4082988eac2def889, type: 3}
+  m_PrefabInstance: {fileID: 8241810396247002067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-7147623447653945316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298718002204941948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ad1f60fe5653749b9b3df2031ab972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeplacementCollectibles
+  vitesseDerive: 2
+  amplitudeBobbing: 0.15
+  vitesseBobbing: 2
+--- !u!114 &-6130769021901834259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298718002204941948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2657910a04384994b9b89bdc010cd2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjetsCollectables
+  typeObjet: SacPoubelle
+--- !u!114 &-208462696416259658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298718002204941948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e945ee3eb15d042898a8b7ff209ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GestionnaireLayering
+  baseSortingOrder: 50
+  precisionMultiplier: 20
+  verticalOffset: 0.5
